@@ -1,0 +1,11 @@
+package com.Damera.PaymentApp;
+
+public class Sodexo implements Payment {
+	
+	@Override
+	public int doPayment() {
+		
+		return 0;
+	}
+
+}

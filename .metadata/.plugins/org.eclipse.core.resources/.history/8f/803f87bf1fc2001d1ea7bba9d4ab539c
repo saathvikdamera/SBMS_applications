@@ -1,0 +1,11 @@
+package com.Damera.PaymentApp;
+
+public class MxCardPayment implements Payment {
+
+	@Override
+	public int doPayment() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

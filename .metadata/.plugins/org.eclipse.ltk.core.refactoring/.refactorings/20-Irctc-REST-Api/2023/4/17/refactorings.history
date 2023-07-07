@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.Damera.request.Passesger&apos; to &apos;Passenger&apos;&#x0D;&#x0A;- Original project: &apos;20-Irctc-REST-Api&apos;&#x0D;&#x0A;- Original element: &apos;com.Damera.request.Passesger&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Damera.request.Passenger&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Passesger&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Damera.request{Passesger.java[Passesger" matchStrategy="1" name="Passenger" qualified="false" references="true" similarDeclarations="false" stamp="1682752262605" textual="false" version="1.0"/>
+</session>

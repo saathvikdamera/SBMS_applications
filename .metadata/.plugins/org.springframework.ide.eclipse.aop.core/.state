@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="14-SpringWebMVC-DataJPA"/>
+<aop-project name="15-SpringWebMVC-H2-DB"/>
+<aop-project name="16-WebMVC-Thymeleaf-formvalidations"/>
+</aop-reference-model>

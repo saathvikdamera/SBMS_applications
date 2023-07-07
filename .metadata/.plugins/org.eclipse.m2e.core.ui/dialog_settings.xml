@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.Damera"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="09-ProjectLombok"/>
+			<item value="07-IOCwithAnnotations2"/>
+			<item value="08-SpringJDBC"/>
+			<item value="06-IOCwithSpringAnnotations"/>
+			<item value="03-PaymentApp-IOC"/>
+			<item value="04-UserServicesApp-IOC"/>
+			<item value="02-CarApp-IOC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\dell\Documents\19_JFSD\Springboot &amp; Microservices\Springboot Workspace\SpringBoot_Security_JWT"/>
+			<item value="C:\Users\dell\Documents\19_JFSD\Springboot &amp; Microservices\Springboot Workspace\spring-cloud-zuul\APIGateway-Zuul-POC"/>
+			<item value="C:\Users\indu.jessie\Downloads\Ait\11-SpringDataJPAApp"/>
+			<item value="C:\Users\indu.jessie\Downloads\Ait\10-SpringBootFirstApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\19-JFSD\Springboot &amp; Microservices\Springboot Workspace\04-UserServicesApp-IOC\src\main\java\com\Damera\User\Test.java"/>
+			<item value="D:\19-JFSD\Springboot &amp; Microservices\Springboot Workspace\02-CarApp-IOC\src\main\java\com\Damera\carApp\Tester.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

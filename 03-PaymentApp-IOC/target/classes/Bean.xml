@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="credit" class="com.Damera.IPayment.CreditCardPayment"></bean>
+	
+	<bean id="debit" class="com.Damera.IPayment.DebitCardPayment"></bean>
+	
+	<bean id="sodex" class="com.Damera.IPayment.SodexoCardPayment"></bean>
+	
+	<bean id="amex" class="com.Damera.IPayment.AmexCardPayment" primary="true"></bean>
+	
+	<bean id="paymentService" class="com.Damera.IPayment.PaymentService" autowire="constructor">
+	<!-- <constructor-arg name="payment" ref="sodex"></constructor-arg>  --> 
+	</bean>
+
+
+</beans>

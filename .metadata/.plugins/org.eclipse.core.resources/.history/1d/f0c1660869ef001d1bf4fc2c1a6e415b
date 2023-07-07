@@ -1,0 +1,68 @@
+package com.Damera.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.Damera.entity.ContactsEntity;
+import com.Damera.service.ContactService;
+
+@Controller
+public class ContactsController {
+
+	@Autowired
+	private ContactService service;
+
+	@GetMapping("/")
+	public String loadContacts(Model model) {
+
+		List contacts = service.getContacts();
+		model.addAttribute("contacts", contacts);
+
+		return "index";
+	}
+
+	@GetMapping("/viewcontact")
+	public String getContact(@RequestParam("id")Integer contactId,Model model) {
+
+		ContactsEntity contact = service.getContactById(contactId);
+		model.addAttribute("contact", contact);
+
+		return "view-contact";
+	}
+
+	@GetMapping("/update")
+	public String getUpdateContact(@RequestParam("id")Integer contactId,Model model) {
+
+		ContactsEntity contact = service.getContactById(contactId);
+		model.addAttribute("contact", contact);
+
+		return "edit-contact";
+	}
+
+	@PostMapping("/update")
+	public String updateContact(@ModelAttribute("contact") ContactsEntity contact,Model model) {
+		
+		ContactsEntity updatedContact = service.updateContact(contact);
+		model.addAttribute("contact", updatedContact);
+
+		return "view-contact";
+	}
+	
+	@GetMapping("/delete")
+	public String deleteContact(@RequestParam("id")Integer contactId,Model model) {
+
+		String status = service.deleteContact(contactId);
+		model.addAttribute("msg", status);
+		model.addAttribute("contact",new ContactsEntity());
+
+		return "view-contact";
+	}
+
+}
