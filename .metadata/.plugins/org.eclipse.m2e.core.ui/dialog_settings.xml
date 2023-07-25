@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.damera"/>
 			<item value="com.Damera"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="42-Junit4-App"/>
 			<item value="09-ProjectLombok"/>
 			<item value="07-IOCwithAnnotations2"/>
 			<item value="08-SpringJDBC"/>
